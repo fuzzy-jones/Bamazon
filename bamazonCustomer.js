@@ -16,7 +16,6 @@ var connection = mysql.createConnection({
     if (err) throw err;
     // run functions below
     displayItems();
-    
     connection.end();
   });
 
@@ -25,6 +24,38 @@ var connection = mysql.createConnection({
       for (var i = 0; i < res.length; i++) {
         console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price);
       }
-      console.log("-----------------------------------");
+      console.log("----------------------------------------------------------");
+      runPurchase();
     });
+  }
+
+  function runPurchase() {
+    inquirer
+      .prompt([
+        {
+            name: "item",
+            type: "input",
+            message: "ID of item you would like to buy: ",
+            validate: function(value) {
+              if (isNaN(value) === false) {
+                return true;
+              }
+              return false;
+            }
+        },
+        {
+            name: "amount",
+            type: "input",
+            message: "How many would you like to buy: ",
+            validate: function(value) {
+              if (isNaN(value) === false) {
+                return true;
+              }
+              return false;
+            }
+        },
+    ])
+      .then(function(answer) {
+        
+      });
   }
