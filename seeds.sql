@@ -1,0 +1,10 @@
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("PS4", "Video Games", 299.99, 10);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Shadow of the Colossus - PS4", "Video Games", 39.99, 1000);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Sigur Ros - Kveikur (2xLP)", "Vinyl", 23.99, 12);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Ready Player One: A Novel", "Books", 8.79, 120);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Raspberry Pi 3 - Starter Kit", "Electronics", 69.99, 3);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Funko Pop: IT-Pennywise with Boat", "Toys", 16.44, 7);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("YI Compact Dash Cam", "Electronics", 39.99, 52);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("French Press Coffee Maker", "Kitchen", 19.95, 60);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Twin Peaks: Collection [Blu-ray]", "Movies & TV", 26.99, 25);
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ("Alien Anthology [Blu-ray]", "Movies & TV", 34.99, 15);
